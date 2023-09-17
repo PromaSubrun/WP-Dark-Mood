@@ -19,3 +19,45 @@ This repository contains the following files and directories:
 - `testng.xml`: A configuration file for TestNG, specifying test suite details.
 
 
+
+WORKFLOW DESCRIPTION:
+
+Unable to Access Demo WordPress Site for WP Dark Mode Automation Testing
+
+Summary: 
+While attempting to create and run an automation test script for WP Dark Mode on a demo WordPress site, several issues were encountered that prevented successful testing.
+
+Steps:
+•	Created a demo WordPress site for WP Dark Mode automation testing.
+•	Attempted to run the test script using Google Chrome and Opera browsers.
+•	Enabled VPN in both browsers to access the site.
+•	Tried to complete the full automation script for testing.
+
+Expected Result: 
+The automation script should be able to execute all test scenarios successfully.
+
+Actual Result:
+
+Issue 1: Demo site does not support Chrome or Opera browsers.
+Issue 2: Even with VPN enabled in both browsers, the site remains inaccessible.
+Issue 3: Attempted to complete the full automation script, but encountered a roadblock on line 68 (commented as "// We need to upgrade to a Business Plan to install any kind of plugins and those are not for free").
+
+
+Testing Strategy:
+
+•	Browser Compatibility Testing
+•	Browser Version Testing
+•	Check Site Requirements
+•	VPN Testing
+•	Network Configuration Testing
+•	Proxy Testing
+•	Plan Restrictions Confirmation
+•	Documentation 
+•	Alternative Testing Environments
+
+
+Severity: 
+Medium (as test script is complete (but need to locate address with possible linkText)
+
+Priority:
+High (as it a blockage)
